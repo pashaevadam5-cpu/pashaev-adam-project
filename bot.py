@@ -32,7 +32,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
 
-TOKEN = "6909186904:AAFnebPVQrDMYZctuN4Ell5r1d9XkCL1ViY"
+TOKEN = ""
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
@@ -136,4 +136,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
